@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:orientation="vertical"
-        android:background="@color/gray_color">
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/ready_image"
@@ -107,19 +107,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="2dp"
-        android:background="@color/gray_color"
+        android:background="@color/white"
         android:orientation="vertical">
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
             <ProgressBar
-                android:layout_marginTop="10dp"
                 android:id="@+id/ready_progress"
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
                 style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
                 android:indeterminate="false"
-                android:progressDrawable="@drawable/shape_startex"/>
+                android:progressDrawable="@drawable/shape_startex" />
             <TextView
                 android:id="@+id/timer"
                 android:layout_width="wrap_content"

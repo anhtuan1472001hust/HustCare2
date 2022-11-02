@@ -139,10 +139,19 @@
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/activity_fragment.xml" value="0.25" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/activity_init_user_info.xml" value="0.2101851851851852" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/activity_main1.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/activity_pill_reminder.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/activity_workout.xml" value="0.2101851851851852" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/app_bar_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/exercises_main.xml" value="0.25" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/fragment_profile.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/fragment_reminder.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/individual_day_layout.xml" value="0.25" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/pill_reminder_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/pill_reminder_rcl.xml" value="0.29284750337381915" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/ready_layout.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/rest_day_layout.xml" value="0.25" />
+        <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/rest_time_layout.xml" value="0.25" />
         <entry key="..\:/Users/asus/Documents/Project Backups/MyDailyFitness-master/app/src/main/res/layout/water_activity_main.xml" value="0.176" />
       </map>
     </option>

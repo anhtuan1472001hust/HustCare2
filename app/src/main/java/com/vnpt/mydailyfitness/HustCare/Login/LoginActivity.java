@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity implements myLogin {
     private FirebaseAuth mAuth=FirebaseAuth.getInstance();
     private CallbackManager fbCallbackManager;
     private ProgressDialog progressDialog;
+    private myLogin login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment;
 
 import com.vnpt.mydailyfitness.R;
 
+import Reminder.PillReminderActivity;
+
 public class FragmentReminder extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -19,12 +21,14 @@ public class FragmentReminder extends Fragment {
         View inflate = inflater.inflate(R.layout.fragment_reminder, container, false);
         // Inflate the layout for this fragment
         ImageView imageView=inflate.findViewById(R.id.set_water);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(getActivity(),InitUserInfo.class);
-                startActivity(intent);
-            }
+        imageView.setOnClickListener(view -> {
+            Intent intent=new Intent(getActivity(),InitUserInfo.class);
+            startActivity(intent);
+        });
+        ImageView imageView2=inflate.findViewById(R.id.set_medicion);
+        imageView2.setOnClickListener(view -> {
+            Intent intent2=new Intent(getActivity(), PillReminderActivity.class);
+            startActivity(intent2);
         });
         return inflate;
     }

@@ -209,7 +209,6 @@
     <!-- TODO: Remove or change this placeholder text -->
 
 
-
     <string name="name">Name</string>
     <string name="parent">Parent</string>
     <string name="save">Save</string>
@@ -313,6 +312,8 @@
     <string name="lower_result">Lower Result :</string>
 
     <string name="workout_hint">Your daily work out time in min/day</string>
+
+    <string name="channel_name">Channel One</string>
 
 
 </resources>

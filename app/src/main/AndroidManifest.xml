@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.vnpt.mydailyfitness" >
+    package="com.vnpt.mydailyfitness">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -21,10 +21,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".PillReminderActivity"
+            android:exported="false" />
         <activity
             android:name=".HustCare.Introduction.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,69 +46,56 @@
         <activity
             android:name="HomePage.MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme1"/>
-        <activity android:name=".HustCare.Exercise.DayActivity"
-            android:screenOrientation="fullSensor"/>
-        <activity android:name=".HustCare.Exercise.RestDayActivity"
-            android:screenOrientation="fullSensor"/>
-        <activity android:name=".HustCare.Exercise.ExcCompletedActivity"
-            android:screenOrientation="fullSensor"/>
-        <activity android:name=".HustCare.Exercise.ExcDetailActivity"
-            android:screenOrientation="fullSensor"/>
-        <activity android:name=".HustCare.Exercise.MainExerciseActivity"
-            android:screenOrientation="fullSensor"/>
-        <activity android:name="com.vnpt.mydailyfitness.HustCare.Calories.SignUp"></activity>
-        <activity android:name="com.vnpt.mydailyfitness.HustCare.Calories.SignUpGoal"></activity>
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".HustCare.Exercise.DayActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".HustCare.Exercise.RestDayActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".HustCare.Exercise.ExcCompletedActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".HustCare.Exercise.ExcDetailActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".HustCare.Exercise.MainExerciseActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.vnpt.mydailyfitness.HustCare.Calories.SignUp" />
+        <activity android:name="com.vnpt.mydailyfitness.HustCare.Calories.SignUpGoal" />
         <activity
             android:name="com.vnpt.mydailyfitness.HustCare.Calories.FragmentActivity"
             android:label="@string/title_activity_fragment"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.vnpt.mydailyfitness.HustCare.alcohol.Alcohol_Chart"
             android:launchMode="singleTop"
-            android:windowSoftInputMode="adjustPan">
-        </activity>
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
             android:name="com.vnpt.mydailyfitness.HustCare.alcohol.Alcohol_Calculator"
             android:launchMode="singleTop"
-            android:windowSoftInputMode="adjustPan">
-
-        </activity>
-
-
-
-
-        <activity android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.BloodPressure_Calculator"
-            android:launchMode="singleTop"
-            android:windowSoftInputMode="adjustPan">
-        </activity>
-
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
-            android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.Bloodpressure_Chart">
+            android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.BloodPressure_Calculator"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.Bloodpressure_Chart">
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan"
         </activity>
-
-        <activity
-            android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.BloodPressure_Result">
+        <activity android:name="com.vnpt.mydailyfitness.HustCare.blood_pressure.BloodPressure_Result">
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan">
         </activity>
         <activity
             android:name="com.vnpt.mydailyfitness.HustCare.general.Home_page"
             android:launchMode="singleTop"
-            android:windowSoftInputMode="adjustPan">
-        </activity>
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
             android:name="com.vnpt.mydailyfitness.HustCare.alcohol.Alcohol_Result"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.AppCompat.Light.Dialog">
-        </activity>
-        <activity android:name=".HustCare.InitUserInfo"/>
-        <activity android:name=".HustCare.WaterActivity"/>
-
-
+            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
     </application>
 
 </manifest>

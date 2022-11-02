@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/a4_grad"
-                android:hint="Enter your weight"
+                android:hint="Enter your weight in kg"
                 android:inputType="numberSigned"
                 android:maxLength="3"
                 android:paddingStart="10dp"
@@ -73,6 +73,7 @@
             app:layout_constraintTop_toBottomOf="@+id/etWeight">
 
             <com.google.android.material.textfield.TextInputEditText
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/a4_grad"

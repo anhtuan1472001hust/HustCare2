@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray_color"
-    tools:context="com.vnpt.mydailyfitness.HustCare.WaterActivity">
+    tools:context="com.vnpt.mydailyfitness.HustCare.Water_Main_Activity">
 
 
 

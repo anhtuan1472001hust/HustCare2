@@ -92,9 +92,6 @@ public class MainExerciseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(1);
-        getWindow().setFlags(1024, 1024);
-        getWindow().addFlags(128);
         setContentView(R.layout.exercises_main);
         this.mDbOperation=new DbOperation(this);
         this.readyToolbar=findViewById(R.id.ready_toolbar);
@@ -292,7 +289,7 @@ public class MainExerciseActivity extends AppCompatActivity {
                 stringBuilder.append("00:");
                 stringBuilder.append(i);
                 MainExerciseActivity.this.nextExcTime.setText(stringBuilder.toString());
-                if(j3==7) {
+                if(j3==15) {
                     StringBuilder sb2 = new StringBuilder();
                     sb2.append("the next exercise is ");
                     sb2.append(upperCase);
@@ -340,9 +337,7 @@ public class MainExerciseActivity extends AppCompatActivity {
         this.mainExcAnimation = (AnimationDrawable) readyAnimation.getBackground();
         this.mainExcAnimation.start();
         this.readyTimerProgressBar.setMax(12);
-        if(j==12000) {
-            this.speak("ready to go ");
-        }
+
         CountDownTimer r2=new CountDownTimer(j,1000) {
             @Override
             public void onTick(long j) {
@@ -359,7 +354,10 @@ public class MainExerciseActivity extends AppCompatActivity {
                 sb2.append("");
                 count.setText(sb2.toString());
                 long j3=j2/1000;
-                if(j3==9){
+                if(j3==12) {
+                    MainExerciseActivity.this.speak("ready to go ");
+                }
+                if(j3==8){
                     StringBuilder sb6 = new StringBuilder();
                     sb6.append("the exercise is ");
                     sb6.append(upperCase);
